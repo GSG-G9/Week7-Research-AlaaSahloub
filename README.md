@@ -142,10 +142,10 @@
 
 - term for when a perpetrator positions himself in a conversation between a user and an application—either to eavesdrop or to impersonate one of the parties, making it appear as if a normal exchange of information is underway. The goal of an attack is to steal personal information, such as login credentials, account details and credit card numbers. 
 
-- how to defend 
-  Using a VPN(virtual private network)
-  Only visiting HTTPS websites
-  Watching out for phishing scams
+- how to defend Man In The Middle?
+  - Using a VPN(virtual private network)
+  - Only visiting HTTPS websites
+  - Watching out for phishing scams
 
 
 #### Cross Site Scripting (XSS)
@@ -154,11 +154,11 @@
 
 - is a type of security vulnerability typically found in web applications. XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy. 
 
-- how to defend 
-  Filter input on arrival
-  Encode data on output
-  Use appropriate response headers
-  Content Security Policy
+- how to defend Cross Site Scripting?
+  - Filter input on arrival
+  - Encode data on output
+  - Use appropriate response headers
+  - Content Security Policy
 
 
 #### Cross Site Request Forgery (CSRF)
@@ -167,9 +167,9 @@
 
 - is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. can be devastating for both the business and user. 
 
-- how to defend:
-    include a CSRF token within relevant requests. The token should be:
-    - Tied to the user's session.
-    - Strictly validated in every case before the relevant action is executed.
+- how to defend Cross Site Request Forgery?
+    - include a CSRF token within relevant requests. The token should be:
+      - Tied to the user's session.
+      - Strictly validated in every case before the relevant action is executed.
 
 
